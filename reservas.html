@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reservas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container mt-4">
+    <h1 class="mb-4">Lista de Reservas</h1>
+    <table class="table table-striped table-bordered">
+      <thead class="table-dark">
+        <tr>
+          <th>Nome</th>
+          <th>E-mail</th>
+          <th>Data de Entrada</th>
+          <th>Data de Saída</th>
+          <th>Adultos</th>
+          <th>Crianças</th>
+          <th>Observações</th>
+        </tr>
+      </thead>
+      <tbody id="reservas-tbody">
+        <!-- Os dados são inseridos aqui via JavaScript -->
+      </tbody>
+    </table>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./js/getReserva.js"></script>
+</body>
+
+</html>
